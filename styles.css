@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex; /* Use flexbox to arrange the logo and links */
+    align-items: center; /* Vertically center the logo and links */
+    justify-content: space-between; /* Separate the logo and links with space */
+    padding: 20px; /* Add some padding for better appearance */
+  }
+  
+  .logo img {
+    height: 40px; /* Set the height of your logo */
+    width: auto; /* Let the width scale automatically */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0 1rem;
+    padding: .3rem;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 40px; /* Add some margin to offset content below the fixed navigation bar */
+  }
+  
+  #section1 {
+    background-color: #c1c1c1;
+   
+  }
+  
+  #section2 {
+    margin-top: 0px;
+    background-color: #616060;
+  }
+  
+  #section3 {
+    margin-top: 0px;
+    background-color: #151212;
+  }
+  
